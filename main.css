@@ -7,9 +7,9 @@
 .header{
     width: 100%;
     height: 80px;
-    position: fixed;
+    position: relative;
     top:0;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.6);
     padding-top: 20px;
     padding-left: 56px;
     padding-right: 56px;
@@ -27,7 +27,9 @@ select{
     height: 100vh;
     background-color: rgba(0,0,0,0.6) ;
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b70b092f-1760-4498-b462-b4ef19907ec7/3290f713-c0d5-4e68-83cc-738bb6be2976/VN-en-20211101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-    
+    border-bottom: 8px solid #222;
+
+ 
 }
 .left-section{
     float: right;
@@ -98,3 +100,115 @@ form button{
     border-bottom-width: 0;
     font-size: 20px;
 }
+.second-section{
+    height: 326px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+}
+.text-area-2, .text-area-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h1-text{
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+    text-align: center;
+}
+.screen img, .screen2 img{
+    width: 398px;
+    height: 250px;
+}
+.third-section{
+    height: 326px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+}
+.fourt-section{
+    background-color: black;
+    color: #fff;
+    border-bottom: 8px solid #222;
+    width: 100%;
+    height: 104px;
+    padding: 70px 45px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.fourt-section .h1-text{
+    text-align: start;
+}
+.text, .text-4{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text{
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.last-section{
+    min-height: 800px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+.button-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-section button{
+    width: 727px;
+    height: 72px;
+    padding: 20px 32px;
+    color: white;
+    background-color: #303030;
+    border-style: none;
+    margin-bottom: 7px;
+    text-align: start;
+    font-weight: 400;
+    font-size: 20px;
+}
+.plus-icon{
+    float: right;
+}
+.last-section .form2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input-form{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+    
